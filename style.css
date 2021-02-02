@@ -1,0 +1,207 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, Arial, sans-serif;
+}
+html{
+  color: #111111;
+}
+
+header {
+  background-image: url('http://images03.nicepage.io/a1389d7bc73adea1e1c1fb7e/ecf48d29b3815cb5a9c4fdc4/pexelsphoto3978928.jpeg');
+  background-size: cover;
+  background-position: 50% 30%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  color: #111111;
+}
+div.content-header {
+  width: 88%;
+  margin: 0 auto;
+}
+.logo{
+  margin-top: 20px;
+  font-size: 9rem; 
+}
+.logo-describe {
+  font-weight: 100;
+  margin-top: 25px;
+  font-size: 2rem;
+  letter-spacing: 9px;
+}
+
+section.text {
+  width: 82%;
+  margin: 0 auto;
+  margin-top: 70px;
+
+}
+
+section.text p {
+  width: 604px;
+  font-weight: 300;
+  font-size: 1.3rem;
+  padding:15px 25px;
+  border-left: 20px solid black;}
+
+section.text h1{
+  font-size: 9rem;
+}
+
+div.travel{
+  background: black;
+  margin-top: 70px;
+ 
+}
+
+div.content-travel{
+  padding-top: 50px;
+  width: 82%;
+  margin: 0 auto;
+  color: white;
+}
+div.content-travel h1{
+  font-size: 8.5rem; 
+  padding-bottom: 25px;
+}
+div.content-travel p{
+  line-height: 1.5;
+  font-size: 1.3rem;
+  width: 50%;
+}
+
+div.layout{
+  display: flex;
+  padding:60px 0;
+}
+div.layout-row {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 5px;
+}
+div.layout-row img{
+  padding:5px 0;
+  width: 100%;
+  justify-content: center;
+}
+div.layout-row.text{
+  display: block;
+}
+div.layout-row.text img{
+  height: 285px;
+}
+div.layout-row ol{
+  margin-left: 20px;
+  font-size: 1.3rem;
+  margin-top: -85px;
+  margin-bottom: 80px;
+}
+.back-image{
+  width: 100%;
+  height: 620px;
+
+  background-image: url("./assets/cervoBackground.jpg");
+  background-position: 50% 50%;
+  object-fit: cover;
+  display: block;
+  vertical-align: middle;
+  background-size: cover;
+  background-repeat: no-repeat;  
+}
+
+article.go-where{
+  width: 84%;
+  margin: 55px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+article.go-where h1{
+  font-size: 8.5rem;
+} 
+article.go-where p {
+  width: 40%;
+  margin-top: 15px;
+  line-height: 2.3;
+}
+article.amazing-places{
+  width: 84%;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+article.amazing-places h1{
+  font-size: 9.5rem;
+}
+article.amazing-places .border-black{
+  width: 15%;
+  border: 10px solid black;
+}
+
+article.amazing-places p {
+  width: 43%;
+  font-size: 1.3rem;
+  margin: 15px 0;
+  line-height: 1.8;
+}
+article.amazing-places div.grid-layout{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  width: 100%;
+}
+.img-div img{
+  width: 100%;
+  height: 360px;
+}
+.back-image.nevasca{
+  background-image: url('./assets/backgroundArvores.jpg');
+  height: 500px;
+  margin-top: 55px;
+}
+.new-road{
+  width: 84%;
+  margin: 0 auto;
+}
+.new-road h1{
+  font-size: 8.5rem;
+}
+.new-road p{
+  width: 55%;
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+footer {
+  color: white;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  margin-top: 50px;
+}
+footer h1 {
+  font-size: 3rem;
+}
+footer p {
+  margin: 15px;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  border-left: 15px solid white;
+  padding-left:15px;
+}
+a{
+  background: white;
+  color: black;
+  font-weight: bold;
+  list-style: none;
+  text-decoration: none;
+  padding: 2px 10px;
+  border-radius: 5px;
+}
